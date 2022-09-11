@@ -1,0 +1,14 @@
+:root {
+    --clr-text: #87787b;
+    --clr-primary: #B34C96;
+    --clr-accent: #6656A9;
+
+    --ff-title: , sans-serif;
+    --ff-serif: serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--ff-serif);
+    color: var(--clr-text);
+}
