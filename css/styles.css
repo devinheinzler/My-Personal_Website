@@ -1,14 +1,41 @@
 :root {
-    --clr-text: #87787b;
+    --clr-text: #5c5151;
     --clr-primary: #B34C96;
     --clr-accent: #6656A9;
 
-    --ff-title: , sans-serif;
+    --ff-title: sans-serif;
     --ff-serif: serif;
+    --ff-logo: sans-serif;
 }
 
 html {
     box-sizing: border-box;
     font-family: var(--ff-serif);
     color: var(--clr-text);
+    font-size: 1.125rem;
 }
+
+/* Typography */
+
+h1, 
+h2, 
+h3,
+h4, 
+p {
+    margin: .75rem;
+}
+
+
+
+h2, h3 {
+    font-family: var( --ff-title);
+    line-height: 0.8;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+p {
+    margin-bottom: .9rem;
+}
+
